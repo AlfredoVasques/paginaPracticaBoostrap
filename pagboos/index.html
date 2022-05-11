@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    
+    <title>Bootstrap</title>
+</head>
+
+<body class="bg-secondary">
+    <div id="navbar" class="container-fluid" style="background-color: white;">
+        <div class="container">
+            <div class="row p-2">
+                <div class="col-4">
+                    <div class="row">
+                        <div class="col-2 d-grid gap-2">
+                            <button class="btn btn-primary">DH</button>
+                        </div>
+                        <div class="col-10">
+                            <input type="text" class="form-control bg-light" placeholder="Buscar" name="" id="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col-8">
+                            <ul class="nav justify-content-end">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Active</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                        aria-expanded="false">Dropdown</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Link</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#" tabindex="-1"
+                                        aria-disabled="true">Disabled</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Estos son los botones a la derecha, donde está la foto de perfil-->
+                        <div class="col-4">
+                            <div class="row">
+                                <div class="col-3 d-grip gap-2"><button class="btn btn-secondary">A</button></div>
+                                <div class="col-3 d-grip gap-2"><button class="btn btn-secondary">B</button></div>
+                                <div class="col-3 d-grip gap-2"><button class="btn btn-secondary">C</button></div>
+                                <div class="col-3 d-grip gap-2"><button class="btn btn-secondary">D</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-4">
+        <div class="container">
+            <div class="row p-2">
+                <div class="col-3">
+                    <div class="card overflow-hidden" style="height: 500px;">
+                        <div style="height: 30px;"> <img src="paisage.jpg" height="50px" width="300px" alt="auto"></div>
+                        <div card-body pt-0>
+                            <div class="text-center">
+                                <div class="foto foto-lg mt-n5 mb-3">
+                                    <img src="img2.jfif"
+                                        style="height: auto; width: 60px; border-radius: 5px; border: solid 2px yellow;"
+                                        alt="">
+                                </div>
+                                <h3>Sam Lason</h3>
+                                <small>Web Developer at Webestica</small>
+                                <p class="mt-3">I'd love to change the world, but they won't give me the source code.
+                                </p>
+
+                                <div class="numeros hstack gap-2 gap-xl-3 justify-content-center">
+                                    <div>
+                                        <h6 class="mb-0">256</h6>
+                                        <small>post</small>
+                                    </div>
+                                    <div class="vr"></div>
+                                    <div>
+                                        <h6 class="mb-0">2.5k</h6>
+                                        <small>Followers</small>
+                                    </div>
+                                    <div class="vr"></div>
+                                    <div>
+                                        <h6 class="mb-0">365</h6>
+                                        <small>Following</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row p-4 " style="height: 150px">
+                        <div class="col-2" style="background-color:white; text-align: center; padding: 16px; width: 90px; height: 130px; border-radius: 5px;">
+                            <button type="button" class="btn  rounded-circle" id="color" >+</button> <br>
+                            <p style="font-size: 10px;">Post a Story</p>
+                        </div>
+                        <div class=" col-3">
+                            <img src="img3.jfif" height="130px" width="90px" style="border-radius: 5px;" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img src="img.4.jpg" height="130px" width="90px" style="border-radius: 5px; " alt="">
+                        </div>
+                        <div class="col-2">
+                            <img src="img6.jpg" height="130px" width="90px" style="border-radius: 5px; " alt="">
+                        </div>
+                        
+                    </div>
+
+                    <div class="card" style="height: 180px; padding: 10px; margin: 20px;">
+                        <div class="row align-items-start">
+                            <div class="col-2">
+                                <img src="uno.jpeg" class="rounded-circle" height="50px" width="50px" alt="">
+                            </div>
+                            <div class="col-10">
+                                <div class="input-group mb-3">
+                                    <input type="text" id="lug" class="form-control" placeholder="Share your thoughts"
+                                        aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="foto" style="padding: 10px; margin: 20px;">
+
+                            <!-- Button trigger modal photo -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"
+                                style="width: 70px; height: 30px; background-color: antiquewhite; color: gray ;">
+                                photo
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Add post photo</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                                                style="color: red; background-color: brown;">Cancel</button>
+                                            <button type="button" class="btn btn-primary"
+                                                style="color: greenyellow; background-color: yellowgreen;">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"
+                                style="width: 70px; height: 30px; background-color: antiquewhite; color: gray ;">
+                                video
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Live video</button>
+                                            <button type="button" class="btn btn-primary">post</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"
+                                style="width: 70px; height: 30px; background-color: antiquewhite; color: gray ;">
+                                Event
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"
+                                style="width: 110px; height: 30px; background-color: antiquewhite; color: gray ; font-size: 12px;">
+                                Feeling/Activity
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary"
+                                data-bs-target="#exampleModal"
+                                style="width: 50px; height: 30px; background-color: antiquewhite; color: gray ; align-items: right;">
+                                ...
+                            </button>
+
+                            <!-- Modal -->
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="height: 400px;">
+                        <div class="title">
+                            <p>Who to follow</p>
+                            <div class="container">
+                                <div class="row align-items-start">
+                                    <div class="col-4" style="padding: 0; margin: 0;">
+                                        <a href=""><img src="j.webp" class="rounded-circle" height="50px" width="50px"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="col-6">
+                                        <small><a href=""><strong id="nom">Judy Nguyen</strong> </a><br>
+                                            News anchor
+                                        </small>
+                                    </div>
+                                    <div class="col-1">
+                                        <button type="button" class="btn  rounded-circle" id="color">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="row align-items-start">
+                                    <div class="col-4" style="padding: 0; margin: 0;">
+                                        <a href=""><img src="3.jpg" class="rounded-circle" height="50px" width="50px"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="col-6">
+                                        <small><a href=""><strong id="nom">Amanda Reed</strong> </a><br>
+                                            <p style="font-size: 12px">Web Developer</p>
+                                        </small>
+                                    </div>
+                                    <div class="col-1">
+                                        <button type="button" class="btn  rounded-circle" id="color">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="row align-items-start">
+                                    <div class="col-4" style="padding: 0; margin: 0;">
+                                        <a href=""><img src="3.jpg" class="rounded-circle" height="50px" width="50px"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="col-6">
+                                        <small><a href=""><strong id="nom">Billy Vasquez</strong> </a><br>
+                                            <p style="font-size: 12px">News anchor</p>
+                                        </small>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href=""><img src="agregar.jpg" class="rounded-circle" height="auto"
+                                                width="30px" id="color" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="row align-items-start">
+                                    <div class="col-4" style="padding: 0; margin: 0;">
+                                        <a href=""><img src="4.webp" class="rounded-circle" height="50" width="50px"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="col-6">
+                                        <small><a href=""><strong id="nom">Lori Ferguson</strong> </a><br>
+                                            <p style="font-size: 12px">Web Developer</p>
+                                        </small>
+                                    </div>
+                                    <div class="col-1">
+                                        <button type="button" class="btn  rounded-circle" id="color">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="row align-items-start">
+                                    <div class="col-4" style="padding: 0; margin: 0;">
+                                        <a href=""><img src="sin.png" class="rounded-circle" height="50" width="50px"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="col-6">
+                                        <small><a href=""><strong id="nom">Carolyn Ortiz</strong> </a><br>
+                                            <p style="font-size: 12px">News anchor</p>
+                                        </small>
+                                    </div>
+                                    <div class="col-1">
+                                        <button type="button" class="btn  rounded-circle" id="color">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="row align-items-start">
+                                  <div class="col-1">
+                                  </div>
+                                  <div class="col" style="text-align: center;">
+                                    <button id="ver">View More</button>
+                                  </div>
+                                  <div class="col-1">
+                                  </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

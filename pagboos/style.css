@@ -1,0 +1,69 @@
+.uno {
+    /*overflow: scroll;*/
+    background-color: aqua;
+    height: 130px;
+    width: 80px;
+    margin: 10px;
+}
+
+.dos {
+
+    background-color: blue;
+    height: 130px;
+    width: 80px;
+    margin: 10px;
+}
+
+.tres {
+    background-color: burlywood;
+    height: 130px;
+    width: 80px;
+    margin: 10px;
+}
+
+.cuatro {
+    background-color: rosybrown;
+    height: 130px;
+    width: 80px;
+    margin: 10px;
+}
+
+.cinco {
+    background-color: rosybrown;
+    height: 130px;
+    width: 80px;
+    margin: 10px;
+}
+
+#color {
+    background-color: cadetblue;
+    color: blue;
+}
+
+#color:hover {
+    background-color: blue;
+    color: black;
+}
+
+#nom {
+    color: black;
+}
+
+#nom:hover {
+    color: blue;
+}
+
+#lug {
+    padding: 8px;
+}
+#ver{
+    
+    padding: 5px;
+    height: 35px;
+    width: 180px;
+    background-color: cornflowerblue;
+    color: white;
+}
+#ver:hover{
+    background-color: blue;
+}
